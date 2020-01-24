@@ -4,4 +4,4 @@
 # 
 #
 # Why?
-# Because I have a customer who refuses to use RH Satellite and/or Ansible.
+# Because there is a customer who refuses to use RH Satellite and/or Ansible.
