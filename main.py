@@ -2,6 +2,9 @@
 
 import os, socket
 
+# Variables
+access = []
+no_access = []
 
 # Read files
 scope_file = open('scope.csv', 'r')
@@ -12,7 +15,13 @@ for host in hosts:
     # Create socket
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     result = sock.connect_ex((host, 22))
+ 
     if result == 0:
-        pprint (host, " is UP")
+        access.append(host)
+        sock.shutdown(2)
+        sock.close()
     else:
-        pprint (host, " no SSH")
+        no_access.append(host)
+
+print('SSH ', access)
+print('noSSH', no_access)
