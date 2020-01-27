@@ -1,5 +1,5 @@
 # add shebang here #!/usr/bin/python2
-
+import threading
 import os, socket
 
 # Variables
@@ -34,6 +34,9 @@ def check_ssh_to_the_host(hosts):
 # Check if Premium subscription is enabled
 # for server in access:
 #     print server
+
+for name in range(len(hosts)):
+
 
 check_ssh_to_the_host(hosts)
 
