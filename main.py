@@ -25,8 +25,6 @@ def ssh_check(host):
         #print(host)
         no_access.append(host)
 
-    print('SSH ', access)
-    print('noSSH', no_access)
     return access,no_access
 
 # multithread ssh_check execution
@@ -39,6 +37,3 @@ for index in range(len(hosts)):
 
 print(access)
 print(no_access)
-
-
-test
