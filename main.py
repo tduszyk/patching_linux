@@ -33,7 +33,7 @@ for index in range(len(hosts)):
     t = threading.Thread(target=ssh_check, args=(hosts[index],))
     threads.append(t)
     t.start()
-    
+    t.join()    
 
 print(access)
 print(no_access)
