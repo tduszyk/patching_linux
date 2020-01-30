@@ -1,0 +1,39 @@
++-------------------------------------------+
+    Installed Product Status
++-------------------------------------------+
+Product Name:   Red Hat Enterprise Linux Server
+Product ID:     69
+Version:        7.6
+Arch:           x86_64
+Status:         Subscribed
+Status Details:
+Starts:         12/01/2019
+Ends:           02/28/2023
+
+Product Name:   Red Hat Enterprise Linux Server - Extended Update Support
+Product ID:     70
+Version:        7.6
+Arch:           x86_64
+Status:         Subscribed
+Status Details:
+Starts:         12/01/2019
+Ends:           02/28/2023
+
+Product Name:   Red Hat Enterprise Linux High Availability (for RHEL Server) - Extended Update Support
+Product ID:     84
+Version:        7.6
+Arch:           x86_64
+Status:         Subscribed
+Status Details:
+Starts:         12/01/2019
+Ends:           02/28/2023
+
+Product Name:   Red Hat Enterprise Linux Resilient Storage (for RHEL Server) - Extended Update Support
+Product ID:     91
+Version:        7.6
+Arch:           x86_64
+Status:         Subscribed
+Status Details:
+Starts:         12/01/2019
+Ends:           02/28/2023
+
