@@ -12,17 +12,13 @@ hosts = scope_file.read().splitlines()
 
 # function to check ssh connection to the host
 def ssh_check(host):
-    # access = []
-    # no_access = []
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     result = sock.connect_ex((host, 22))
     if result == 0:
-        #print(host)
         access.append(host)
         sock.shutdown(2)
         sock.close()
     else:
-        #print(host)
         no_access.append(host)
 
     return access,no_access
@@ -35,5 +31,6 @@ for index in range(len(hosts)):
     t.start()
     t.join()    
 
-print(access)
-print(no_access)
+# print(access)
+# print(no_access)
+
